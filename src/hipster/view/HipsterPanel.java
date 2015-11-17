@@ -1,16 +1,13 @@
 package hipster.view;
 
 import hipster.controller.HipsterAppController;
-import javax.swing.JComboBox;
-import javax.swing.JLabel;
-import javax.swing.JButton;
-import javax.swing.SpringLayout;
+import javax.swing.*;
 import java.awt.Color;
 import hipster.model.Book;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class HipsterPanel 
+public class HipsterPanel extends JPanel
 {
 	private HipsterAppController baseController;
 	private SpringLayout baseLayout;

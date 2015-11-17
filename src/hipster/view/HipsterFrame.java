@@ -1,6 +1,7 @@
 package hipster.view;
 
 import javax.swing.*;
+import hipster.controller.HipsterAppController;
 
 public class HipsterFrame extends JFrame
 {

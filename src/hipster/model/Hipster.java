@@ -43,8 +43,19 @@ public class Hipster
 		return "name";
 	}
 	
+	public void setName(String name)
+	{
+		
+	}
+	
 	public String [] getHipsterPhrases()
 	{
-		return 
+		return hipsterPhrases;
+	}
+	
+	public void setHipsterBooks(Book[] hipsterBooks)
+	{
+		
 	}
 }
+
