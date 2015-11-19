@@ -28,27 +28,27 @@ public class Book
 	
 	public int getPageCount()
 	{
-		
+		return pageCount;
 	}
 	
 	public String getAuthor()
 	{
-		
+		return author;
 	}
 	
 	public String getSubject()
 	{
-		
+		return subject;
 	}
 	
 	public String getTitle()
 	{
-		
+		return title;
 	}
 	
 	public double getPrice()
 	{
-		
+		return price;
 	}
 	
 	public void setPageCount(int pageCount)
@@ -71,7 +71,7 @@ public class Book
 		
 	}
 	
-	public void setPrice(String price)
+	public void setPrice(Double price)
 	{
 		
 	}
