@@ -28,4 +28,6 @@ public class HipsterFrame extends JFrame
 		this.setResizable(false);
 		this.setVisible(true);
 	}
+	
+//	public HipsterAppController baseController
 }
